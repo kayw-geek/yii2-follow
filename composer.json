@@ -1,0 +1,24 @@
+{
+  "name": "kayw-geek/yii2-follow",
+  "description": "This package helps you to add user based follow system to your model.",
+  "keywords": ["yii", "yii2", "yii2-model", "follow","fans"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kay W",
+      "email": "weikaiii@sina.cn"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "support": {
+    "issues": "https://github.com/kayw-geek/yii2-follow/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "kaywGeek\\follow\\": ""
+    }
+  }
+}
