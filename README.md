@@ -2,7 +2,7 @@
 
 
 
-User follow unfollow system for Laravel.
+User follow unfollow system for Yii2.
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkayw-geek%2Fyii2-follow.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkayw-geek%2Fyii2-follow?ref=badge_shield) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kayw-geek/yii2-follow) ![GitHub](https://img.shields.io/github/license/kayw-geek/yii2-follow) 
 
