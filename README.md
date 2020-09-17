@@ -78,4 +78,4 @@ $post->followers()->orderBy('follow_at desc');
 ```
 
 # License
-
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkayw-geek%2Fyii2-follow.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkayw-geek%2Fyii2-follow?ref=badge_large)
