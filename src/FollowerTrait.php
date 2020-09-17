@@ -32,8 +32,8 @@ trait FollowerTrait
         }
 
         return self::run([
-            'user_id'=>$this->id,
-            'follower_id'=>$user->id,
+            'user_id'=>$user->id,
+            'follower_id'=>$this->id,
             'follow_at'=>date('Y-m-d H:i:s'),
         ]);
     }
@@ -89,7 +89,7 @@ trait FollowerTrait
      * @author: weikai
      * @date: 20.7.22 15:41
      */
-    public function followeds( )
+    public function followers( )
     {
         return $this->hasMany(Follower::className(),['follower_id'=>'id']);
     }
@@ -139,7 +139,7 @@ trait FollowerTrait
      */
     public function checkFollowed(Model $user ) :bool
     {
-        return empty(Follower::findOne(['user_id'=>$this->id,'follower_id'=>$user->id])) ? true : false;
+        return empty(Follower::findOne(['user_id'=>$user->id,'follower_id'=>$this->id])) ? true : false;
     }
     
 
