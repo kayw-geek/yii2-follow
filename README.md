@@ -74,7 +74,7 @@ $user->followers;
 $user->followings()->where(['<',['follow_at'=>date('Y-m-d')]])->all();
 
 // followers orderBy
-$post->followers()->orderBy('follow_at desc');
+$user->followers()->orderBy('follow_at desc');
 ```
 
 # License
